@@ -1,6 +1,6 @@
 import React from "react";
 
-function Child() {
+function Child(props) {
 const {age, incrementAge} = props;
 function handleClick(){
     incrementAge();
